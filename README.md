@@ -1,37 +1,52 @@
 # 🧳 Tourism Ticketing and Diary App
 
-A full-stack web application built using **Java Spring Boot**, **Thymeleaf**, and **PostgreSQL** that allows users to register, book tourism tickets/packages, maintain personal travel diaries, and track upcoming trips. The app is deployed via **Railway**, and **Ngrok** is used to expose the localhost for external access during development.
+A modern and user-friendly full-stack web application developed using **Java Spring Boot**, **Thymeleaf**, and **PostgreSQL**, enabling users to:
+
+- ✨ Register securely  
+- 📝 Maintain personal travel diaries  
+- 🗓️ Book tourism tickets & packages  
+- 🔎 Track upcoming trips  
+
+The application is **deployed on Railway** for public use, with **Ngrok** integration for live local development sharing.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- ✅ User Registration & Login
-- ✅ Travel Diary Creation & Management
-- ✅ Ticket & Tourism Package Booking
-- ✅ View and Track Upcoming Trips
-- ✅ Secure Logout Functionality
-- ✅ Session & Form Management with Thymeleaf
-- ✅ Deployed on Railway with Ngrok for public access
+✅ **User Authentication**  
+Secure registration and login system with session-based access.
+
+✅ **Travel Diary Management**  
+Users can create, edit, and view their personalized travel stories.
+
+✅ **Ticket & Package Booking**  
+Choose and book from various tourism packages.
+
+✅ **Upcoming Trips Overview**  
+Track saved or scheduled trips and events.
+
+✅ **Responsive UI with Thymeleaf**  
+Dynamic page rendering with seamless user interaction.
+
+✅ **Deployment & Tunneling**  
+Live deployment using **Railway** and **Ngrok** for instant demo access.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category      | Technologies Used                            |
-|---------------|-----------------------------------------------|
-| Backend       | Java, Spring Boot, Hibernate                  |
-| Frontend      | Thymeleaf, HTML5, CSS3, Bootstrap (optional)  |
-| Database      | PostgreSQL                                    |
-| Deployment    | Railway                                       |
-| Tunneling     | Ngrok                                         |
-| Build Tool    | Maven                                         |
-| IDE           | IntelliJ IDEA / VS Code                       |
+| Layer        | Technologies Used                            |
+|--------------|-----------------------------------------------|
+| 🧠 Backend    | Java, Spring Boot, Hibernate ORM              |
+| 🎨 Frontend   | Thymeleaf, HTML5, CSS3, Bootstrap (optional)  |
+| 🗄️ Database   | PostgreSQL                                    |
+| ☁️ Deployment | Railway                                       |
+| 🔗 Tunneling  | Ngrok                                         |
+| 🔧 Tools      | Maven, IntelliJ IDEA / VS Code                |
 
 ---
 
 ## 📸 Screenshots
-
 
 | Login Page | Register Page |
 |------------|---------------|
@@ -41,36 +56,35 @@ A full-stack web application built using **Java Spring Boot**, **Thymeleaf**, an
 |-----------|------------|
 | <img src="https://github.com/user-attachments/assets/585d6f92-b67c-47f0-82d3-3299f0d20d9d" width="400"/> | <img src="https://github.com/user-attachments/assets/49a59da0-2932-4f97-a360-6241c584d9d0" width="400"/> |
 
-| Packages Booking | Upcoming Trips |
+| Package Booking | Upcoming Trips |
 |------------------|----------------|
 | <img src="https://github.com/user-attachments/assets/dbe93453-a4c0-4d78-acc6-b9e828d9d95c" width="400"/> | <img src="https://github.com/user-attachments/assets/9efb436e-2e72-42ae-9cf5-317101a43529" width="400"/> |
-
-> 💡 *These screenshots are embedded from GitHub attachments. You can also place local images in a `screenshots/` folder and reference them like `![Login](screenshots/login.png)` if you plan to host them in your repo.*
-
 
 ---
 
 ## 🔧 Getting Started
 
-### Prerequisites
+### 📦 Prerequisites
 
-- Java 17+
-- Maven
-- PostgreSQL (locally or cloud instance)
-- Ngrok (for exposing localhost)
-- Railway account (for deployment)
+Ensure the following tools are installed:
 
-### Setup Instructions
+- ☕ Java 17+
+- 🔨 Maven
+- 🐘 PostgreSQL
+- 🌐 Ngrok
+- 🚀 Railway (optional for deployment)
+
+### 🚀 Project Setup
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/yourusername/tourism-diary-app.git
 cd tourism-diary-app
 
-# Set up the PostgreSQL database and update credentials in application.properties
+# 2. Configure PostgreSQL database (update your credentials in application.properties)
 spring.datasource.url=jdbc:postgresql://localhost:5432/your_db
 spring.datasource.username=your_user
 spring.datasource.password=your_password
 
-# Run the application
+# 3. Run the application
 mvn spring-boot:run
