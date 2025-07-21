@@ -32,7 +32,6 @@ A full-stack web application built using **Java Spring Boot**, **Thymeleaf**, an
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
 
 | Login Page | Register Page |
 |------------|---------------|
